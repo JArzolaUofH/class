@@ -1,3 +1,4 @@
+# Justine Arzola 1804667
 class ItemToPurchase:
     def __init__(self, name='none', price=0, quantity=0, description='none'):
         self.item_name = name
