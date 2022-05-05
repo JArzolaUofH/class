@@ -1,3 +1,4 @@
+#Justine Arzola 1804667
 def selection_sort_descend_trace(integers):
     for i in range(len(integers) - 1):
         pos = i
