@@ -1,3 +1,4 @@
+# JustineArzola 1804667
 both = input().split()
 names = both[0]
 
