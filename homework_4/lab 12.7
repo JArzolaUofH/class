@@ -1,0 +1,20 @@
+# homework 4
+# Justine Arzola 1804667
+def get_age():
+    ageinput = int(input())
+    if 18 <= ageinput <= 75:
+        return ageinput
+    raise ValueError("Invalid age.")
+
+
+def fat_burning_heart_rate(ageinput):
+    return (220 - ageinput) * 0.7
+
+
+if __name__ == "__main__":
+    try:
+        ageinput = get_age()
+        print("Fat burning heart rate for a", ageinput, "year-old:", fat_burning_heart_rate(ageinput), "bpm")
+    except ValueError as e:
+        print(e)
+        print("Could not calculate heart rate info.\n")
